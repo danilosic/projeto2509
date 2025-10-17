@@ -6,15 +6,11 @@
     <title>Projeto PHP com Banco</title>
 </head>
 <body>
-    <h3>Cadastro de Pessoas</h3>
-    <form method="POST" action="inserir.php">
-        <label for="nome">Nome: </label>
-        <input type="text" name="nome" required><br><br>
-        <label for="idade">Idade: </label>
-        <input type="number" name="idade" required><br><br>
-        <label for="email">E-mail: </label>
-        <input type="email" name="email" required><br><br>
-        <button type="submit">Cadastrar</button>
-    </form>
+    <h2>Sistema de Cadastro de Pessoas</h2>
+    <a href="pagina1.php">Inserir</a><br><br>
+    <a href="pagina2.php">Excluir</a><br><br>
+    <a href="pagina3.php">Atualizar</a><br><br>
+    <a href="consultar.php">Consultar</a><br><br>
+    
 </body>
 </html>

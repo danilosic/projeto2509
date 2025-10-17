@@ -4,7 +4,7 @@
     $servidor = "localhost";
     $usuario = "root";
     $senha = "";
-    $banco = "AULA_BANCO";
+    $banco = "BASE_DADOS";
 
     $conexao = new mysqli($servidor, $usuario, $senha, $banco);
 
